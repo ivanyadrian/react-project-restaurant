@@ -1,1 +1,1 @@
-Live site: https://ivanyadrian.github.io/react-project-restaurant/
+Site preview: https://ivanyadrian.github.io/react-project-restaurant/
