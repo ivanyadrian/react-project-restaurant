@@ -1,0 +1,38 @@
+.app__newsletter {
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background: var(--color-black);
+}
+.app__newsletter-input input {
+    padding: 1rem 1.5rem;
+    background: var(--color-black);
+    margin: 4rem 2rem 4rem 0;
+    width: 100%;
+    border: 2px solid var(--color-golden);
+    font-family: var(--font-base);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+    .app__newsletter {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__newsletter {
+        padding: 2rem 0;
+    }
+    .app__newsletter-input{
+        flex-direction: column;
+        display: flex;
+    }
+    .app__newsletter-input input {
+        width: 80%;
+        margin: 4rem 0 2rem 0;
+    }
+    .app__newsletter-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
